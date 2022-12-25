@@ -1,0 +1,425 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  font-family: "Montserrat" serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+.btn {
+  padding: 13px 36px 15px 36px;
+  background-color: #4985ff;
+  border-radius: 30px;
+  border: none;
+}
+
+.de {
+  text-decoration: underline;
+  color: #4985ff;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./img/Rectangle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header .main {
+  width: 100%;
+  border-bottom: 0.3px solid rgb(161, 161, 161);
+}
+header .nav {
+  width: 80%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+header .d {
+  position: relative;
+}
+header .list {
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+}
+header .list::before {
+  content: "";
+  position: absolute;
+  bottom: -17px;
+  left: 0;
+  width: 0%;
+  height: 1px;
+  background-color: rgb(255, 255, 255);
+  transition: 0.2s;
+}
+header .list:hover:before {
+  width: 100%;
+}
+header .container {
+  padding-top: 250px;
+}
+header .unmain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+header .sub {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+}
+header .title {
+  font-weight: 800;
+  font-size: 48px;
+  color: #ffffff;
+}
+header .sub-t {
+  font-weight: 800;
+  font-size: 48px;
+  color: #ffffff;
+}
+
+.section-0 {
+  height: 700px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.section-0 .holder {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.section-0 .we {
+  font-weight: 700;
+  font-size: 36px;
+  color: #323232;
+}
+.section-0 .dewq {
+  font-weight: 400;
+  font-size: 16px;
+  color: #999999;
+}
+.section-0 .jeqwere {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-content: space-between;
+}
+.section-0 .box {
+  display: flex;
+}
+.section-0 .hewq {
+  display: flex;
+}
+.section-0 .text {
+  margin-top: 60px;
+  margin-left: 20px;
+}
+.section-0 .text h2 {
+  font-weight: 600;
+  font-size: 18px;
+  color: #000000;
+}
+.section-0 .text h3 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #999999;
+}
+
+.section-1 {
+  width: 100%;
+  height: 97vh;
+  background-color: #f6f6f8;
+}
+.section-1 .df {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -moz-column-gap: 100px;
+       column-gap: 100px;
+  height: 80vh;
+  border-bottom: 1px solid #e0e0e0;
+}
+.section-1 .loi {
+  font-weight: 400;
+  font-size: 16px;
+  color: #999999;
+}
+.section-1 .heigh {
+  font-weight: 700;
+  font-size: 36px;
+  color: #323232;
+}
+.section-1 .card {
+  height: 120px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.section-1 .hew {
+  display: flex;
+}
+.section-1 .ders {
+  font-weight: 400;
+  font-size: 36px;
+  color: #000000;
+}
+.section-1 .dewx {
+  font-weight: 400;
+  font-size: 16px;
+  color: #999999;
+}
+.section-1 .wr {
+  height: 30px;
+  width: 30px;
+}
+
+.section-2 {
+  width: 100%;
+  height: 490px;
+  background: linear-gradient(90deg, #504dc2 20.44%, #5f12d0 80.91%), #c4c4c4;
+  display: flex;
+  justify-content: center;
+}
+.section-2 .koreshok {
+  width: 80%;
+  margin-top: -200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 600px;
+       column-gap: 600px;
+}
+.section-2 .koreshok h2 {
+  font-weight: 700;
+  font-size: 36px;
+  color: #ffffff;
+}
+.section-2 .koreshok button {
+  color: #ffffff;
+}
+
+.section-3 {
+  widows: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.section-3 .cartochka {
+  width: 78%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  top: -30%;
+  height: 550px;
+  border-bottom: 1px solid rgb(224, 224, 224);
+}
+.section-3 .uncard {
+  display: flex;
+  flex-direction: column;
+}
+.section-3 .uncard span {
+  font-weight: 600;
+  font-size: 18px;
+  color: #4985ff;
+}
+.section-3 .uncard h4 {
+  font-weight: 600;
+  font-size: 18px;
+}
+.section-3 .uncard p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #999999;
+}
+
+.section-4 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 750px;
+  background-color: #c4c4c4;
+  flex-direction: column;
+}
+.section-4 .veshas {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.section-4 .veshas h2 {
+  font-weight: 700;
+  font-size: 36px;
+  color: #000000;
+}
+.section-4 .veshas p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #999999;
+}
+.section-4 .morew {
+  display: flex;
+  width: 75%;
+  justify-content: space-between;
+}
+
+.section-5 {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), url(./img/Rectangle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 570px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.section-5 .derwa h2 {
+  font-weight: 700;
+  font-size: 36px;
+  color: #ffffff;
+}
+.section-5 .derwa p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.section-6 {
+  width: 100%;
+  height: 168px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.section-6 .herew {
+  position: absolute;
+  top: -234%;
+}
+.section-6 .ger {
+  position: absolute;
+  top: -130%;
+}
+.section-6 .f {
+  width: 70%;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.section-7 {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.section-7 .form {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.section-7 .form input {
+  border: none;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  padding: 10px;
+  border-radius: 30px 0 0 30px;
+}
+.section-7 .form button {
+  background-color: #4985ff;
+  border: none;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  padding: 10px;
+  border-radius: 0 30px 30px 0;
+}
+.section-7 .ewa {
+  font-weight: 600;
+  font-size: 18px;
+  color: #000000;
+}
+.section-7 .ewq {
+  font-weight: 400;
+  font-size: 16px;
+  color: #999999;
+}
+.section-7 .wq {
+  font-weight: 400;
+  font-size: 14px;
+  color: #999999;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #f6f6f8;
+  height: 440px;
+}
+footer .g {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  height: 330px;
+  border-bottom: 1px solid #999999;
+}
+footer .g h2 {
+  font-weight: 600;
+  font-size: 18px;
+  color: #000000;
+}
+footer .g p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #999999;
+}
+footer .r,
+footer .r1 {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+}
+footer .n1 {
+  display: flex;
+  flex-direction: column;
+}
+footer .mr {
+  margin-right: 110px;
+}
+footer .before::before {
+  content: url(./img/right-arrow.png);
+}
+footer .custom1::before {
+  content: url(./img/Group.png);
+}
+footer .custom3::before {
+  content: url(./img/placeholder.png);
+}
+footer .custom2::before {
+  content: url(./img/call.png);
+}
+footer .swq {
+  text-align: center;
+  font-weight: 400;
+  font-size: 13px;
+  color: #999999;
+}/*# sourceMappingURL=style.css.map */
